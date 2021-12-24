@@ -3,6 +3,14 @@ def jogar():
     print("** Bem-vindo ao jogo de forca! **")
     print("*********************************")
 
+    palavra_secreta = "abacaxi"
+
+    enforcou = False
+    acertou = False
+
+    while(not enforcou and not acertou):
+        print("--- simulando jogo ---")
+
     print("**** Fim do jogo ****")
 
 
