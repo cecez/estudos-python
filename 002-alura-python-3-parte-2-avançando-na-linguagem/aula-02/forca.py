@@ -12,10 +12,11 @@ def jogar():
         print("--- simulando jogo ---")
 
         chute = input("Qual letra? ")
+        chute = chute.strip()   # removendo espaços no início e fim da string
 
         indice = 0
         for letra in palavra_secreta:
-            if chute == letra:
+            if chute.upper() == letra.upper():  # comparando os dois caracteres em maiúsculo
                 print(f"Encontrei a letra '{letra}' na posição {indice}")
             indice = indice + 1
 
