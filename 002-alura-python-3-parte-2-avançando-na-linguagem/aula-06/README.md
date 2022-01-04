@@ -16,4 +16,9 @@ logo2.close()
 arquivo2 = open("palavras.txt", "r") 
 linha = arquivo.readline()
 arquivo.close()
+
+# sintaxe para abertura de arquivo mais segura
+with open("palavras.txt") as arquivo:
+    for linha in arquivo:
+        print(linha)
 ```
