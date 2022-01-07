@@ -10,7 +10,9 @@ Fazer um jogo da velha simples em Python.
    - [x] Inicializa tabuleiro
   
 
-- [ ] Loop principal, enquanto há espaço no tabuleiro e não há vencedor
+- [ ] Loop principal 
+  - [ ] encerra jogo se não há mais espaços
+  - [ ] encerra jogo se há vencedor
   - [ ] Pede jogada do próximo jogador
 
 
@@ -18,4 +20,11 @@ Fazer um jogo da velha simples em Python.
 
 ## Tarefas
 - [x] Estrutura para armazenar tabuleiro: Dicionário
-- [ ] Função para imprimir tabuleiro (com coordenadas)
+- [x] Função para imprimir tabuleiro (com coordenadas)
+
+    1   2   3
+ 1    |   |   
+   -----------
+ 2    |   |   
+   ------------
+ 3    |   |   
